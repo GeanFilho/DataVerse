@@ -1,22 +1,20 @@
+import React from 'react';
+import CaixaDeTextoInterativa from './components/vetor'; // Corrigindo a importação
+import './components/vetor.css';
 import './App.css';
 import Navbar from './components/Navbar';
-import Nav from './components/nav-inter';
-import Apresentacao from './components/Apresentacao';
-import Estruturas from './components/Estruturas';
 import Footer from'./components/Footer';
-import carousel from './components/carousel';
 
 function App() {
   return (
-    <div class="site">
-      <div><Footer/></div>
-      
-      
-      
-      
+    <div className="App">
+
+      <Navbar />
+
+      <CaixaDeTextoInterativa />
+
+      <Footer />
     </div>
-    
-    
   );
 }
 
